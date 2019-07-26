@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "samircompany-dev-20190726191252-authRole",
+            "UnauthRoleArn": "arn:aws:iam::009056920464:role/samircompany-dev-20190726191252-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::009056920464:role/samircompany-dev-20190726191252-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "samircompany-dev-20190726191252-deployment",
+            "UnauthRoleName": "samircompany-dev-20190726191252-unauthRole",
+            "StackName": "samircompany-dev-20190726191252",
+            "StackId": "arn:aws:cloudformation:us-east-1:009056920464:stack/samircompany-dev-20190726191252/39b362f0-afc0-11e9-be2f-0a0bad6f0bfa"
+        },
+        "categories": {
+            "auth": {
+                "samircompany019f1aa0": {}
+            }
+        }
+    }
+}
