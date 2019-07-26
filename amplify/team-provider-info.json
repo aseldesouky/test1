@@ -15,5 +15,25 @@
                 "samircompany019f1aa0": {}
             }
         }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "samircompany-prod-20190726213636-authRole",
+            "UnauthRoleArn": "arn:aws:iam::009056920464:role/samircompany-prod-20190726213636-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::009056920464:role/samircompany-prod-20190726213636-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "samircompany-prod-20190726213636-deployment",
+            "UnauthRoleName": "samircompany-prod-20190726213636-unauthRole",
+            "StackName": "samircompany-prod-20190726213636",
+            "StackId": "arn:aws:cloudformation:us-east-1:009056920464:stack/samircompany-prod-20190726213636/4e270b60-afd4-11e9-a186-0e3dd8dc9008"
+        },
+        "categories": {
+            "auth": {
+                "samircompany019f1aa0": {}
+            },
+            "function": {
+                "bookslambda": {}
+            }
+        }
     }
 }

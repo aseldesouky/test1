@@ -4,10 +4,19 @@ import './App.css';
 import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
+import {API} from 'aws-amplify';
 
 Amplify.configure(awsconfig);
 
+
+
+
 class App extends React.Component {
+  callAmplifyfn = () =>
+{
+  API.get('books', '/books');
+}
+
   render()
   {
     return (
@@ -17,6 +26,7 @@ class App extends React.Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <button onClick={this.callAmplifyfn}>Call api</button>
           <a
             className="App-link"
             href="https://reactjs.org"

@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/books",
+            "lambdaFunction": "bookslambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "books",
+    "apiName": "books",
+    "functionArns": [
+        {
+            "lambdaFunction": "bookslambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "samircompany-dev-20190726191252-authRole",
+        "unAuthRoleName": "samircompany-dev-20190726191252-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "bookslambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
